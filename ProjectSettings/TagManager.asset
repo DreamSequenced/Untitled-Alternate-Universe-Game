@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Overworld
+  - Underworld
+  - PlayerCanvas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Post-Processing
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Underworld - Background
+    uniqueID: 4169735369
+    locked: 0
+  - name: Underworld - Midground
+    uniqueID: 528990623
+    locked: 0
+  - name: Underworld - Foreground
+    uniqueID: 2093789397
+    locked: 0
+  - name: Overworld - Background
+    uniqueID: 350251645
+    locked: 0
+  - name: Overworld - Midground
+    uniqueID: 3463147437
+    locked: 0
+  - name: Overworld - Foreground
+    uniqueID: 2114864191
+    locked: 0
+  - name: Player
+    uniqueID: 4225853539
+    locked: 0
