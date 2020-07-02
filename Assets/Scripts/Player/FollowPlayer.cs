@@ -7,6 +7,6 @@ public class FollowPlayer : MonoBehaviour
 {
     void Update()
     {
-        // If player hits bounds, fuck knowsss ahhhh
+        // TO-DO: logic preventing floating textboxes from moving off-screen when player is at level boundary
     }
 }

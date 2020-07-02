@@ -18,7 +18,7 @@ public class HUD : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
-        // To-do improve
+        // TO-DO: Improve? Works for now, will not when multiple cameras required
         GetComponent<Canvas>().worldCamera = FindObjectOfType<Camera>();
     }
 

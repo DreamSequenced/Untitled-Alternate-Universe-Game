@@ -7,6 +7,7 @@ public class EssentialLoader : MonoBehaviour
     public PlayerController playerPrefab;
     public EventManager eventManagerPrefab;
     public HUD hudPrefab;
+    public FinalLoader fnLoaderPrefab;
 
     private void Start()
     {
@@ -26,6 +27,12 @@ public class EssentialLoader : MonoBehaviour
         {
             HUD hudInstance = Instantiate(hudPrefab);
             HUD.Instance = hudInstance;
+        }
+
+        if (FinalLoader.Instance == null)
+        {
+            FinalLoader hudInstance = Instantiate(fnLoaderPrefab);
+            FinalLoader.Instance = hudInstance;
         }
     }
 }
